@@ -1,0 +1,82 @@
+{
+    "name": "My Input Actions",
+    "maps": [
+        {
+            "name": "MyActionMap",
+            "id": "a06e391f-a86d-4aad-aa64-0c430db34360",
+            "actions": [
+                {
+                    "name": "MyTouchAction",
+                    "type": "Value",
+                    "id": "63e48c30-6b1a-4fe8-bfb7-43835dbd6386",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MyMouseClickAction",
+                    "type": "Button",
+                    "id": "03e4a433-8c6c-4afb-a456-55100568c880",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PinchAction",
+                    "type": "PassThrough",
+                    "id": "a47f2972-72f8-4031-9abc-227139be825e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f91b0581-c4a2-4927-9793-7df352d40cbf",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MyTouchAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a6c96980-6339-40b0-9e23-ef7faa885d9a",
+                    "path": "<Touchscreen>/touch0/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PinchAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fa87d6a1-aec9-456f-8141-b935cb18b02d",
+                    "path": "<Touchscreen>/touch1/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PinchAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9f456243-9134-4b00-97f7-5f83a8458387",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MyMouseClickAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
